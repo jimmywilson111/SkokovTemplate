@@ -1,0 +1,103 @@
+@import _variables.sass
+#team-description
+    margin: 3em 0 
+    h2
+        font-size: 1.875rem
+        text-transform: uppercase
+    h3
+        font-size: 0.9375rem
+        font-weight: 900
+    p
+        font-size: 0.9375rem
+        margin-bottom: 1em
+#our-skills
+    .skillbox
+        margin-bottom: 3em
+        ul
+            width: 80%
+            .percent
+                width: 47px
+                height: 37px
+                background-color: $black
+                color: $yellow
+                text-align: center
+                margin: 0 2px 5px 0
+                padding-top: 6px
+                font-size: 1.0625rem
+                font-weight: bold
+            .uncolored
+                position: relative
+                height: 37px
+                width: 100% 
+                color: $light-gray
+                background-color: $light-gray
+                overflow: hidden
+            .colored
+                display: inline-block
+                position: absolute
+                height: 37px 
+                padding: 10px 0 0 10px
+                text-transform: uppercase
+                background-color: $yellow
+                font-weight: bold
+            .c1
+                width: 90%
+            .c2
+                width: 87%
+            .c3, .c5
+                width: 80%
+            .c4
+                width: 75%
+            .c6
+                width: 76%
+            .c7
+                width: 65%
+            .c8
+                width: 85%
+#our-team      
+    .team
+        margin-top: 44px
+        li
+            text-align: center
+            margin: 1em 0
+            img
+                width: 195px
+                height: 195px
+                border-radius: 50%
+                border: solid 3px $yellow
+                object-fit: cover
+                margin-bottom: 8px
+            h3
+                max-width: 200px
+                background-color: $light-gray
+                color: $yellow
+                font: bold 1rem $main-font
+                padding: 3px 0
+                margin: 0 auto
+                text-transform: uppercase
+                text-align: center
+            .addfile
+                width: 0.1px
+                height: 0.1px
+                opacity: 0
+                overflow: hidden
+                position: absolute
+                z-index: -1
+            label
+                margin-bottom: 0
+                &:hover
+                    cursor: pointer
+                    opacity: 0.6
+            .send-cv
+                width: 200px
+                font-size: 16px
+                text-transform: uppercase
+                background-color: $light-gray
+                color: $yellow
+                border-style: none
+                border-bottom: 2px solid transparent
+                &:hover
+                    color: $light-gray
+                    background-color: $yellow
+                    transition: 0.3s all linear
+                    border-bottom: 2px solid $light-gray

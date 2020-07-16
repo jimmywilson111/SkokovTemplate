@@ -1,0 +1,55 @@
+@import _variables.sass
+#portfolio-gallery
+    margin: 3em 0
+    .section-title
+        font: 2.1875rem $main-font
+        padding: .5em 0
+    .section-description
+        font: 1.5rem $main-font
+    .menu-navigation
+        .nav-item
+            margin: .5em 0
+            .filter-button
+                font-size: 1.5rem
+                text-decoration: none
+                font-family: $main-font
+                padding: 10px 14px
+                &:hover
+                    background-color: $yellow
+                    color: $black 
+            .active
+                background-color: $yellow
+    .modal-body
+        padding: 0
+        margin: 0
+        h3        
+            padding: 0
+            margin: 0
+            color: $yellow        
+            background-color: $light-gray
+        .author
+            margin: 0 15px 0
+            font-size: 1.125rem 
+            color: $dark-blue
+        img
+            object-fit: contain
+
+    .overlay
+        display: none
+        position: absolute
+        z-index: 9
+        background-color: $light-gray
+        width: 30%
+        height: 35%
+        top: 35%
+        left: 35%
+        opacity: .7
+        i
+            position: absolute
+            top: 45%
+            left: 40%
+            color: $white
+            font-size: 2rem
+    a  
+        &:hover> .overlay
+            display: block 

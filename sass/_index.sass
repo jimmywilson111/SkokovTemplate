@@ -1,0 +1,104 @@
+@import _variables.sass
+#banner
+    padding: 3em 0
+    background-image: url(../img/bg.png)
+    background-repeat: no-repeat
+    background-size: cover
+    .slider-content
+        .contentbox
+            h2
+                display: inline-block
+                text-transform: uppercase
+                font-size: 4rem
+                background-color: $yellow
+                padding: 5px 10px
+                margin-bottom: 5px
+            span
+                display: inline-block
+                background-color: $light-gray
+                color: $white
+                padding: 3px 5px
+                font-size: 1.5rem
+                margin-bottom: 5px
+            .btn-order
+                display: inline-block
+                padding: 5px 40px
+                margin-bottom: 25px
+                text-decoration: none
+                text-align: center
+                font: bold 1.5rem $main-font
+                background-color: $black
+                color: $white
+                border-bottom: 3px solid transparent
+                &:hover
+                    border-bottom: 3px solid $yellow
+                    text-decoration: none
+                    color: $yellow
+#create-design
+    margin: 3em 0
+    .section-title
+        font: 2.1875rem $main-font
+        padding: .5em 0
+    .section-description
+        font: 1.5rem $main-font
+    .design-item
+        width: 250px
+        height: auto
+        position: relative
+        margin-bottom: 30px
+        &:hover > .card-overlay
+            display: block
+            transition: all 0.5s ease
+        .design-card
+            position: relative
+            background-color: $yellow
+            padding-top: 40px
+            color: $black
+            img
+                margin-left: 75px
+                margin-bottom: 35px
+                max-height: 88px
+            h3
+                color: $black
+                text-align: center
+                text-transform: uppercase
+                font-size: 20px
+                font: $second-font
+                margin-bottom: 21px
+            p
+                width: 100%
+                padding: 20px 0
+                font-size: 13px
+                text-align: center
+                color: $white
+                background-color: $light-gray
+        .card-overlay
+            position: absolute
+            top: 0
+            display: none
+            opacity: 1
+            &::after
+                content: ''
+                position: absolute
+                left: 80%
+                bottom: 67px
+                border: 15px solid transparent
+                border-bottom: 15px solid $gray
+            h3
+                font: $second-font
+                font-size: 20px
+                color: $white
+                background-color: $light-gray
+                padding: 8px 10px 0
+                position: relative
+            p
+                font-size: 10px
+                color: $white
+            span
+                margin-right: 15px
+                font-size: 10px
+                color: $yellow
+#image-gallery
+    margin-bottom: 3em
+#clients
+    margin-bottom: 3em
