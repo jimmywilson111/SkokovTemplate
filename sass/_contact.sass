@@ -12,11 +12,15 @@
     input
         display: inline-block
         padding: 15px
+        font-size: 1rem
         border-style: none
         background-color: $dark-white
         border-left: 2px solid $black
         &:hover
+            transition: ease .4s all
             border-left: 2px solid $yellow
+        &:focus
+            border-left: 2px solid $yellow    
     textarea
         width: 100%
         resize: none
@@ -24,8 +28,12 @@
         background-color: $dark-white
         border-style: none
         padding: 17px
+        font-size: 1rem
         border-left: 2px solid $black
         &:hover
+            transition: ease .4s all
+            border-left: 2px solid $yellow
+        &:focus
             border-left: 2px solid $yellow
     .send-btn
         padding: 11px

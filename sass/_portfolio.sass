@@ -7,6 +7,7 @@
     .section-description
         font: 1.5rem $main-font
     .menu-navigation
+        padding: 20px 0
         .nav-item
             margin: .5em 0
             .filter-button
@@ -33,23 +34,24 @@
             color: $dark-blue
         img
             object-fit: contain
-
     .overlay
         display: none
+        cursor: pointer
         position: absolute
         z-index: 9
         background-color: $light-gray
-        width: 30%
-        height: 35%
-        top: 35%
+        width: 200px
+        height: 200px
+        top: 30%
         left: 35%
         opacity: .7
         i
             position: absolute
-            top: 45%
+            top: 38%
             left: 40%
             color: $white
-            font-size: 2rem
+            font-size: 3rem
     a  
         &:hover> .overlay
+            transition: all .5s ease
             display: block 
