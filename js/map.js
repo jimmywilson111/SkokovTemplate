@@ -1,6 +1,5 @@
 (function () {
   var setting = {
-    "height": 647,
     "width": 1980,
     "zoom": 16,
     "queryString": "Saint-Patrick, Porcheux, France",
