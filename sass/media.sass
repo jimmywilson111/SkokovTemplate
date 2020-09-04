@@ -1,18 +1,17 @@
 @media screen and (min-width: 320px) and (max-width: 426px)
-    #header
-        .navbar
-            .site-title
-                .logo
-                    img
-                        width: 80px
-                        height: 80px
     #page-title
         padding: 1em 0
         .title
             font-size: 1.5rem
             padding: 10px 50px 10px 10px
     #header
-        .navbar 
+        .navbar
+            padding-right: 1em 
+            .site-title
+                .logo
+                    img
+                        width: 80px
+                        height: 80px
             .collapse
                 .navbar-nav
                     .nav-item
@@ -54,14 +53,15 @@
     #portfolio-gallery
         margin: 1em 0
         .section-title
-            font-size: 1.75rem
+            font-size: 1.65rem
         .section-description
-            font-size: 1.125rem
+            font-size: 1rem
         .menu-navigation
-            margin: 15px 0 
+            margin: 0 0 5px 0
+            padding: 0 
             .nav-item 
                 .filter-button
-                    font-size: 1.125rem
+                    font-size: .975rem
                     padding: 5px 10px
         .overlay
             width: 130px
@@ -109,16 +109,19 @@
         padding: 1em 0
         .card
             .card-footer
+                &::after
+                    left: 85%
                 .card-title
                     padding: 5px
                     font-size: .975rem
                     font-weight: bold
                 .comments
+                    padding: 0 5px 
                     .like
                         padding: 0
                         margin: 5px 0 0 5px
                     .news-info
-                        margin-top: .4em
+                        margin-top: .6em
                         li
                             font-size: .675rem
                             a
@@ -154,8 +157,8 @@
         .search
             padding: 15px
             .search-btn
-                right: 45px
-                top: 29px
+                right: 33px
+                top: 13px
         .categories
             padding: 0
             h2
@@ -183,7 +186,25 @@
                 a
                     font-size: .75rem
                     font-weight: bold
-
+    #map
+        #map-9cd199b9cc5410cd3b1ad21cab2e54d3
+            iframe
+                height: 450px
+    #feedback
+        .send-btn
+            display: flex
+            float: none
+            margin: 0 auto
+    #sidebar-1
+        .contacts
+            .contacts-list
+                .contacts-item
+                    .contacts-link
+                        font-size: .875rem
+                        padding: .1em
+                        .contactmail
+                            font-size: .675rem
+                              
 @media screen and (min-width: 321px) and (max-width: 375px)
     #portfolio-gallery
         .overlay
@@ -198,7 +219,6 @@
                                 h3
                                     font-size: .875rem
                                     margin-bottom: .5em
-
 @media screen and (min-width: 376px) and (max-width: 425px)
     #portfolio-gallery
         .overlay
@@ -207,8 +227,7 @@
 
 @media screen and (min-width: 426px) and (max-width: 768px)
     #header 
-        .navbar
-            padding-right: 0 
+        .navbar 
             .site-title
                 .logo
                     img
@@ -287,14 +306,24 @@
         padding: 1em 0  
         .card
             .card-footer
+                &::after
+                    left: 85%
                 .card-title
                     padding: 5px
                     font-size: .975rem
                     font-weight: bold
                 .comments
+                    padding: 7px
                     .like
                         padding: 0
                         margin: 5px 0 0 5px
+                        font-size: .875rem
+                    .news-info
+                        margin-top: .2em
+                        li
+                            a
+                                display: block
+                                font-size: .875rem
         .social-share
             margin-bottom: 20px
             &::after
@@ -314,8 +343,25 @@
                     font-weight: bold
                     &::after
                         left: 75%
-
+    #map
+        #map-9cd199b9cc5410cd3b1ad21cab2e54d3
+            iframe
+                height: 550px
+    #sidebar-1
+        .contacts
+            .contacts-list
+                .contacts-item
+                    .contacts-link
+                        font-size: .875rem
+                        padding: .1em
+                        .contactmail
+                            font-size: .675rem
 @media screen and (min-width: 769px) and (max-width: 1024px)
+    #page-title
+        padding: 1em 0
+        .title
+            font-size: 1.75rem
+            padding: 15px 50px 15px 15px
     #sidebar-2
         .search
             padding: 15px 20px
@@ -391,3 +437,4 @@
                 h4
                     font-size: .875rem
                     font-weight: bold
+    

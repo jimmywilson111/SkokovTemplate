@@ -1,14 +1,17 @@
 @media screen and (min-width: 320px) and (max-width: 426px) {
-  #header .navbar .site-title .logo img {
-    width: 80px;
-    height: 80px;
-  }
   #page-title {
     padding: 1em 0;
   }
   #page-title .title {
     font-size: 1.5rem;
     padding: 10px 50px 10px 10px;
+  }
+  #header .navbar {
+    padding-right: 1em;
+  }
+  #header .navbar .site-title .logo img {
+    width: 80px;
+    height: 80px;
   }
   #header .navbar .collapse .navbar-nav .nav-item {
     margin: .2em 0;
@@ -64,16 +67,17 @@
     margin: 1em 0;
   }
   #portfolio-gallery .section-title {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
   }
   #portfolio-gallery .section-description {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
   #portfolio-gallery .menu-navigation {
-    margin: 15px 0;
+    margin: 0 0 5px 0;
+    padding: 0;
   }
   #portfolio-gallery .menu-navigation .nav-item .filter-button {
-    font-size: 1.125rem;
+    font-size: .975rem;
     padding: 5px 10px;
   }
   #portfolio-gallery .overlay {
@@ -128,17 +132,23 @@
   #post {
     padding: 1em 0;
   }
+  #post .card .card-footer::after {
+    left: 85%;
+  }
   #post .card .card-footer .card-title {
     padding: 5px;
     font-size: .975rem;
     font-weight: bold;
+  }
+  #post .card .card-footer .comments {
+    padding: 0 5px;
   }
   #post .card .card-footer .comments .like {
     padding: 0;
     margin: 5px 0 0 5px;
   }
   #post .card .card-footer .comments .news-info {
-    margin-top: .4em;
+    margin-top: .6em;
   }
   #post .card .card-footer .comments .news-info li {
     font-size: .675rem;
@@ -180,8 +190,8 @@
     padding: 15px;
   }
   #sidebar-2 .search .search-btn {
-    right: 45px;
-    top: 29px;
+    right: 33px;
+    top: 13px;
   }
   #sidebar-2 .categories {
     padding: 0;
@@ -217,6 +227,23 @@
     font-size: .75rem;
     font-weight: bold;
   }
+  #map #map-9cd199b9cc5410cd3b1ad21cab2e54d3 iframe {
+    height: 450px;
+  }
+  #feedback .send-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: none;
+    margin: 0 auto;
+  }
+  #sidebar-1 .contacts .contacts-list .contacts-item .contacts-link {
+    font-size: .875rem;
+    padding: .1em;
+  }
+  #sidebar-1 .contacts .contacts-list .contacts-item .contacts-link .contactmail {
+    font-size: .675rem;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -238,9 +265,6 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  #header .navbar {
-    padding-right: 0;
-  }
   #header .navbar .site-title .logo img {
     width: 85px;
     height: 85px;
@@ -329,14 +353,28 @@
   #post {
     padding: 1em 0;
   }
+  #post .card .card-footer::after {
+    left: 85%;
+  }
   #post .card .card-footer .card-title {
     padding: 5px;
     font-size: .975rem;
     font-weight: bold;
   }
+  #post .card .card-footer .comments {
+    padding: 7px;
+  }
   #post .card .card-footer .comments .like {
     padding: 0;
     margin: 5px 0 0 5px;
+    font-size: .875rem;
+  }
+  #post .card .card-footer .comments .news-info {
+    margin-top: .2em;
+  }
+  #post .card .card-footer .comments .news-info li a {
+    display: block;
+    font-size: .875rem;
   }
   #post .social-share {
     margin-bottom: 20px;
@@ -361,9 +399,26 @@
   #post .releated-post .releated-post-item h4::after {
     left: 75%;
   }
+  #map #map-9cd199b9cc5410cd3b1ad21cab2e54d3 iframe {
+    height: 550px;
+  }
+  #sidebar-1 .contacts .contacts-list .contacts-item .contacts-link {
+    font-size: .875rem;
+    padding: .1em;
+  }
+  #sidebar-1 .contacts .contacts-list .contacts-item .contacts-link .contactmail {
+    font-size: .675rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  #page-title {
+    padding: 1em 0;
+  }
+  #page-title .title {
+    font-size: 1.75rem;
+    padding: 15px 50px 15px 15px;
+  }
   #sidebar-2 .search {
     padding: 15px 20px;
   }
